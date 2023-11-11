@@ -3,7 +3,7 @@
   max-width: 600px;
   height: 100vh;
   margin: 0 auto;
-  background: linear-gradient(45deg, #ffd700, #ffcc00, #ffd700);
+  background: linear-gradient(45deg, #eac700, #ffd015, #f4cf00);
 }
 
 .imageCtn {
@@ -35,6 +35,7 @@
   width: 100%;
   text-align: center;
   font-size: 25px;
+  font-weight: 700;
 }
 
 .btn {
@@ -46,7 +47,8 @@
   border: 1px solid #00000090;
   border-radius: 22px;
   cursor: pointer;
-  font-family: "Satisfy", cursive;
+  font-family: "Dancing Script", cursive;
+  font-weight: 700;
 }
 
 .slideUp {

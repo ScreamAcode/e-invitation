@@ -30,7 +30,7 @@ export default function Home() {
                   "https://maps.app.goo.gl/yLS5yy8ndYzdT7R1A";
               }}
             >
-              Tap for location
+              Tap here for location
             </button>
           </div>
           <video className={styles.video} controls>
