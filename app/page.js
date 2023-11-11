@@ -9,7 +9,7 @@ export default function Home() {
   useEffect(() => {
     const timer = setTimeout(() => {
       setShowVideo(true);
-    }, 3500);
+    }, 6000);
 
     return () => clearTimeout(timer);
   }, []);
@@ -17,7 +17,11 @@ export default function Home() {
   return (
     <div className={styles.weddingInvitation}>
       <div className={`${styles.imageCtn} ${showVideo ? styles.slideUp : ""}`}>
-        <img className={styles.image} src="image.png" alt="Groom and Bride" />
+        <img
+          className={`${styles.image} ${styles.slideUpToCenter}`}
+          src="image.png"
+          alt="Groom and Bride"
+        />
       </div>
       {showVideo && (
         <div className={styles.main}>
